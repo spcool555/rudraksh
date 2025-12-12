@@ -1,0 +1,58 @@
+/*** Customized Bootstrap ****/
+
+// Base Colors
+$primary: #CE9233;        // unified primary color
+$secondary: #797672;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #CE9233;        // same as primary for theme consistency
+$danger: #dc3545;
+$light: #F9F8F7;
+$dark: #2B2C2E;
+
+// Fonts
+$font-family-base: 'Poppins', sans-serif;
+$headings-font-family: 'Roboto', sans-serif;
+
+// Colors
+$body-color: $secondary;
+$headings-color: $dark;
+
+// Typography weights
+$headings-font-weight: 700;
+$display-font-weight: 800;
+
+// Enable responsive font sizes
+$enable-responsive-font-sizes: true;
+
+// Border radius settings
+$border-radius: 0px;
+$border-radius-sm: $border-radius;
+$border-radius-lg: $border-radius;
+
+// Links
+$link-decoration: none;
+
+// Allow negative margins
+$enable-negative-margins: true;
+
+// Customize Alerts
+$alert-warning-bg: $warning;
+$alert-warning-border-color: darken($warning, 10%);
+$alert-warning-color: $dark;
+
+// Customize Badges
+$badge-warning-bg: $warning;
+$badge-warning-color: $dark;
+
+// Customize Buttons
+$btn-warning-bg: $warning;
+$btn-warning-border-color: darken($warning, 10%);
+$btn-warning-hover-bg: darken($warning, 10%);
+$btn-warning-hover-border-color: darken($warning, 12%);
+$btn-warning-active-bg: darken($warning, 12%);
+$btn-warning-active-border-color: darken($warning, 14%);
+$btn-warning-focus-shadow-rgb: rgba($warning, .5);
+
+// Import Bootstrap’s core SCSS after customization
+@import "bootstrap/scss/bootstrap";
