@@ -71,7 +71,7 @@ const Footer = () => {
         <div className="container">
          
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0 text-light"> All Right Reserved by |
-              &copy; <a className="fw-semi-bold text-light" href="#">Copyright 2026 Nepal Rudraksha Center</a>
+              &copy; <a className="fw-semi-bold text-light" href="#">2026 Nepal Rudraksha Center</a>
             </div>
             
           </div>
