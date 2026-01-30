@@ -153,18 +153,18 @@ const SiddhaMala2 = () => {
 
 
             <div className="btn-group">
-              <a href="tel:+919834432773" className="btn-primary">
+              <Link to="tel:+919834432773" className="btn-primary">
                 Call Now
-              </a>
+              </Link>
 
-              <a
-                href="https://wa.me/919834432773?text=Hello! I am interested in the Japa Mala."
+              <Link
+                to="https://wa.me/919834432773?text=Hello! I am interested in the Japa Mala."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline"
               >
                 WhatsApp Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

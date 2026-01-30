@@ -1,9 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
+import Seo from './Seo'
 
 const Home = () => {
   return (
     <>
+      <Seo title="Home Page" description="This is the about page"/>
       {/* Topbar Start */}
       <div className="position-sticky container-fluid bg-primary text-white py-2 d-none d-lg-block wow fadeIn" data-wow-delay="0.1s">
         <div className="container">
@@ -12,9 +15,9 @@ const Home = () => {
             <div className="d-flex align-items-center">
               <img src="img/logo1.png" alt="Logo" style={{ height: "40px" }} className="me-2" />
              <h5 className="text-white m-0">
-  <a href="/" style={{ color: "white", textDecoration: "none" }}>
+  <Link to="/" style={{ color: "white", textDecoration: "none" }}>
     NEPAL RUDRAKSHA CENTRE
-  </a>
+  </Link>
 </h5>
 
             </div>

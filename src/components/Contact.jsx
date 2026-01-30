@@ -1,4 +1,5 @@
 import React, { useState } from "react"; 
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -100,6 +101,22 @@ const Contact = () => {
 
   return (
     <>
+    <style jsx>{`
+     @media (max-width: 768px) {
+          .zoomIn {
+            margin-top: 4% !important;
+            margin-left: 75% !important;
+            float: none !important;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .zoomIn {
+            margin-top: 4% !important;
+            margin-left: 65% !important;
+          }
+    `}
+    </style>
       <div style={styles.container}>
         {/* Header */}
         <div style={styles.header}>
@@ -174,18 +191,16 @@ const Contact = () => {
             </form>
           </div>
         </div>
-      </div>
-
-      {/* Back Button */}
-      <a
-        href="/"
+        {/* Back Button */}
+      <Link
+        to="/"
         className="btn btn-primary py-3 px-4 animated zoomIn"
         style={{ marginTop: "-5%", marginLeft: "92%" }}
       >
         Back
-      </a>
-
-      {/* Divider */}
+      </Link>
+      </div>
+      {/* Divider
       <hr
         style={{
           border: "2px solid #d6ae58ff",
@@ -194,7 +209,7 @@ const Contact = () => {
           marginTop: "-1%",
           marginBottom: "30px",
         }}
-      />
+      /> */}
     </>
   );
 };

@@ -1,13 +1,14 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Ganesh = () => {
   const [mainImage, setMainImage] = useState(
-    "img/n1mukhi.jpg"
+    "img/ganesh.jpg"
   );
 
   const thumbnails = [
-    "img/n1mukhi.jpg",
-    "img/certified1.jpg",
+    "img/ganesh.jpg",
+    "img/certified3.jpeg",
   ];
 
   const changeImage = (src) => setMainImage(src);
@@ -128,6 +129,19 @@ const Ganesh = () => {
           color: black;
           background: #1ebe5d;
         }
+           @media (max-width: 768px) {
+          .zoomIn {
+            margin-top: 2% !important;
+            margin-left: 75% !important;
+            float: none !important;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .zoomIn {
+            margin-top: 2% !important;
+            margin-left: 65% !important;
+          }
 
     `}
 
@@ -156,7 +170,7 @@ const Ganesh = () => {
 
         {/* Right: Product Details */}
         <div style={styles.detailsSection}>
-          <h2 style={styles.title}>ONE MUKHI RUDRAKSHA</h2>
+          <h2 style={styles.title}>GANESH RUDRAKSHA</h2>
           <div style={styles.price}>PRICE : 1500 /- (Only)</div>
           <p style={styles.description}>
             a rare and unique Rudraksha bead distinguished by a natural, trunk-like protrusion on its surface, resembling the trunk of Lord Ganesha, the Hindu deity of wisdom and the remover of obstacles.</p>
@@ -165,31 +179,29 @@ const Ganesh = () => {
           <h6 style={{color:"#807E78"}}>(For more such Details Please Contact us)</h6>
           {/* Buttons */}
             <div className="btn-group">
-              <a href="tel:+919834432773" className="btn-primary">
+              <Link to="tel:+919834432773" className="btn-primary">
                 Call Now
-              </a>
-              <a
-                href="https://wa.me/919834432773?text=Hello! I am interested in Combination 1."
+              </Link>
+              <Link
+                to="https://wa.me/919834432773?text=Hello! I am interested in Ganesh Rudraksha"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline"
               >
                 WhatsApp Now
-              </a>
+              </Link>
             </div>
         </div>
       </div>
-    </div>
-<a
-                href="/Rudraksha"
+      <Link
+                to="/Rudraksha"
                 className="btn btn-primary py-3 px-4 animated zoomIn"
                 style={{marginTop:'-5%',marginLeft:'92%'}}
               >
                 Back
-              </a>
-             
-    
-    </>
+              </Link>
+    </div>
+  </>
   );
 };
 

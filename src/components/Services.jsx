@@ -1,5 +1,6 @@
 // src/components/Services.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Services = () => {
@@ -40,9 +41,9 @@ const Services = () => {
                     japa and spiritual practice.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="#">
+                <Link className="btn btn-light px-3" to="#">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -63,9 +64,9 @@ const Services = () => {
                     in multiple mukhi counts.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="#">
+                <Link className="btn btn-light px-3" to="#">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -86,9 +87,9 @@ const Services = () => {
                     and beauty.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="#">
+                <Link className="btn btn-light px-3" to="#">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -110,9 +111,9 @@ const Services = () => {
                     reports.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="#">
+                <Link className="btn btn-light px-3" to="#">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -133,9 +134,9 @@ const Services = () => {
                     length per your choice.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="#">
+                <Link className="btn btn-light px-3" to="#">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -156,9 +157,9 @@ const Services = () => {
                     Rudraksha is authentic.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="#">
+                <Link className="btn btn-light px-3" to="#">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

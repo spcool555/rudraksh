@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Consultaion = () => {
-  const phoneNumber = "919876543210"; // Replace with your real phone number
+  const phoneNumber = "919834432773"; // Replace with your real phone number
 
   // Hero Section Styles
   const heroStyle = {

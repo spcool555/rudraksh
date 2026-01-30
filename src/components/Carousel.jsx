@@ -83,7 +83,7 @@ const Carousel = () => {
                 protection against negative energies.
               </p>
               <Link
-                href="/Contact"
+                to="/Contact"
                 className="btn btn-primary py-3 px-4 animated zoomIn"
               >
                 Contact Us
@@ -116,7 +116,7 @@ const Carousel = () => {
                 modern innovations, our products are crafted to perfection.
               </p>
               <Link
-                href="/Contact"
+                to="/Contact"
                 className="btn btn-primary py-3 px-4 animated zoomIn"
               >
                 Contact Us
@@ -149,7 +149,7 @@ const Carousel = () => {
                 connection and inner strength.
               </p>
               <Link
-                href="/Contact"
+                to="/Contact"
                 className="btn btn-primary py-3 px-4 animated zoomIn"
               >
                 Contact Us

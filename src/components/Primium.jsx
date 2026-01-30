@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const whatsappNumber = "919876543210";
+const whatsappNumber = "919834432773";
 
 const Premium = () => {
   const [hovered, setHovered] = useState(false);

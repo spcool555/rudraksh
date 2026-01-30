@@ -28,18 +28,20 @@ const Navbar = () => {
       </div>
 
       {/* Top Info Bar */}
-      <div className="container-fluid bg-primary text-white py-2 d-none d-lg-block" style={{ position: 'sticky', top: '25px', zIndex: 15 }}>
-        <div className="container d-flex align-items-center justify-content-between flex-wrap">
+    <div className="container-fluid bg-primary text-white py-2 d-none d-lg-block" style={{ position: 'sticky', top: '25px', zIndex: 15 }}>
+      <div className="container d-flex align-items-center justify-content-between flex-wrap">
+        <Link to="/">
           {/* Logo + Name */}
           <div className="d-flex align-items-center">
             <img src="img/logo1.png" alt="Logo" style={{ height: '40px' }} className="me-2" />
             <h5 className="text-white m-0">
  
-    NEPAL RUDRAKSHA CENTRE
+              NEPAL RUDRAKSHA CENTRE
   
-</h5>
-
+            </h5>
           </div>
+        </Link>
+
 
      <div style={{display:'flex',gap:'1%',width:'50%'}}>
            {/* Location */}
@@ -70,10 +72,10 @@ const Navbar = () => {
       <div className="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s"   style={{ position: "sticky", top: "20px", zIndex: 13,width:'100%'}}>
         <div className="container">
           <nav className="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-            <a href="assets/index.html" className="navbar-brand d-lg-none" style={{display:'flex'}}>
+            <Link to="/" className="navbar-brand d-lg-none" style={{display:'flex'}}>
             <img src="img/logo1.png" alt="Logo" style={{ height: "40px" }} className="me-2" />
               <h1 className="fw-bold m-0">Nepal Rudraksha Center </h1>
-            </a>
+            </Link>
             <button
               type="button"
               className="navbar-toggler me-0"
@@ -85,10 +87,10 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarCollapse" >
               <div className="navbar-nav" >
                 
-                <a href="/" className="nav-item nav-link active">Home</a>
-                <a href="/About1" className="nav-item nav-link">About</a>
+                <Link to="/" className="nav-item nav-link active">Home</Link>
+                <Link to="/About1" className="nav-item nav-link">About</Link>
                 
-               <a href="/Rudraksha" className="nav-item nav-link">Rudraksha</a>
+               <Link to="/Rudraksha" className="nav-item nav-link">Rudraksha</Link>
                <Link to="/Primium" className="nav-item nav-link">
                   Premium  Rudraksha
                 </Link>
@@ -97,8 +99,8 @@ const Navbar = () => {
                 </Link>
 
                  <div className="nav-item dropdown">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="nav-link dropdown-toggle"
                     id="malaDropdown"
                     role="button"
@@ -106,7 +108,7 @@ const Navbar = () => {
                     aria-expanded="false"
                   >
                     Mala's
-                  </a>
+                  </Link>
                   <div className="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
                     <Link to="/Rudrakshamala" className="dropdown-item">
                       Rudraksha Mala
@@ -119,8 +121,8 @@ const Navbar = () => {
                     </Link>
                   </div>
                 </div>
-                <a href="/Gallary" className="nav-item nav-link">Gallary</a>
-                  <a href="/Contact" className="nav-item nav-link">Contact</a>
+                <Link to="/Gallary" className="nav-item nav-link">Gallary</Link>
+                  <Link to="/Contact" className="nav-item nav-link">Contact</Link>
                 
               </div>
             </div>

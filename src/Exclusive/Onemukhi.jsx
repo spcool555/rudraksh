@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Onemukhi = () => {
   const [mainImage, setMainImage] = useState("img/n1mukhi.jpg");
 
-  const thumbnails = ["img/n1mukhi.jpg", "img/certified1.jpg"];
+  const thumbnails = ["img/n1mukhi.jpg", "img/certified3.jpeg"];
 
   const changeImage = (src) => setMainImage(src);
 
@@ -126,6 +126,22 @@ const Onemukhi = () => {
           text-decoration: none;
           font-weight: bold;
         }
+
+        /* ✅ RESPONSIVE BACK BUTTON (NO JSX CHANGE) */
+        @media (max-width: 768px) {
+          .zoomIn {
+            margin-top: 2% !important;
+            margin-left: 75% !important;
+            float: none !important;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .zoomIn {
+            margin-top: 2% !important;
+            margin-left: 65% !important;
+          }
+        }
       `}</style>
 
       <div style={styles.pageContainer}>
@@ -171,29 +187,30 @@ const Onemukhi = () => {
             </h6>
 
             <div className="btn-group">
-              <a href="tel:+919834432773" className="btn-primary">
+              <Link to="tel:+919834432773" className="btn-primary">
                 Call Now
-              </a>
+              </Link>
 
-              <a
-                href="https://wa.me/919834432773?text=Hello! I am interested in One Mukhi Rudraksha."
+              <Link
+                to="https://wa.me/919834432773?text=Hello! I am interested in One Mukhi Rudraksha."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline"
               >
                 WhatsApp Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-      </div>
-      {/* Back Button */}
-        <div style={{ textAlign: "right", padding: "1rem", marginTop: "-1rem" }}>
 
-        <Link to="/Rudraksha" className="back-btn">
-           Back
+        <Link
+          to="/Rudraksha"
+          className="btn btn-primary py-3 px-4 animated zoomIn"
+          style={{ marginTop: "-5%", marginLeft: "92%" }}
+        >
+          Back
         </Link>
-        </div>
+      </div>
     </>
   );
 };

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Rudraksha = () => {
   return (
@@ -94,12 +95,12 @@ const Rudraksha = () => {
                 mind, enhance concentration, reduce stress, and provide
                 protection against negative energies.
               </p>
-              <a
-                href="/Primium"
+              <Link
+                to="/Primium"
                 className="btn btn-primary py-3 px-4 animated zoomIn"
               >
                 Explore More
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -144,9 +145,9 @@ const Rudraksha = () => {
                   <p>
                     A rare and powerful sacred bead symbolizing Lord Shiva, consciousness, and enlightenment. </p>
                 </div>
-                <a className="btn btn-light px-3" href="/onemukhi">
+                <Link className="btn btn-light px-3" to="/onemukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -167,9 +168,9 @@ const Rudraksha = () => {
                     Two mukhi a sacred bead with two natural lines or "mukhis" on its surface, symbolizing the divine union of Shiva and Parvati as Ardhanareeshwara.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/twomukhi">
+                <Link className="btn btn-light px-3" to="/twomukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -189,9 +190,9 @@ const Rudraksha = () => {
                      Three mukhi  representing the Hindu trinity of Brahma, Vishnu, and Mahesh (Shiva). 
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Threemukhi">
+                <Link className="btn btn-light px-3" to="/Threemukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -211,9 +212,9 @@ const Rudraksha = () => {
                     Four mukhi Lord Brahma, the creator of knowledge, and the planet Mercury, and is believed to enhance intellectual capacity, concentration, communication, and creativity, as well as calm stress and anxiety.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Fourmukhi">
+                <Link className="btn btn-light px-3" to="/Fourmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -233,9 +234,9 @@ const Rudraksha = () => {
                     Wearing the 5 Mukhi Rudraksha enhances focus and concentration during spiritual practices such as meditation, prayer, and mantra chanting.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Fivemukhi">
+                <Link className="btn btn-light px-3" to="/Fivemukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -255,9 +256,9 @@ const Rudraksha = () => {
                     Wearing the 6 Mukhi Rudraksha enhances focus and concentration during spiritual practices such as meditation, prayer, and mantra chanting.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Sixmukhi">
+                <Link className="btn btn-light px-3" to="/Sixmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -290,9 +291,9 @@ const Rudraksha = () => {
                     A special bead with seven facets or faces. Each face represents a different deity or energy, making it a powerful symbol in Hinduism. 
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Sevenmukhi">
+                <Link className="btn btn-light px-3" to="/Sevenmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -312,9 +313,9 @@ const Rudraksha = () => {
                     The 8 Mukhi Rudraksha is highly beneficial for Virgo (Kanya) and Gemini (Mithuna) Zodiac signs, as it is associated with Lord Ganesha. 
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Eightmukhi">
+                <Link className="btn btn-light px-3" to="/Eightmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -334,9 +335,9 @@ const Rudraksha = () => {
                    The nine forms of Goddess Durga. Ruling planets are Ketu and Rahu, but its primary spiritual aspect is the benevolent protection and strength from the Nav Durga.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Ninemukhi">
+                <Link className="btn btn-light px-3" to="/Ninemukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -356,9 +357,9 @@ const Rudraksha = () => {
                     characterized by ten natural lines or faces on its surface. It is a powerful spiritual tool associated with Lord Vishnu, the divine preserver and protector, providing protection from negativity, negative energy
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Tenmukhi">
+                <Link className="btn btn-light px-3" to="/Tenmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -378,9 +379,9 @@ const Rudraksha = () => {
                     The 11 Mukhi Rudraksha looks like a small, brownish seed with eleven distinct lines running from one end to the other, creating eleven faces on its surface.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Elevenmukhi">
+                <Link className="btn btn-light px-3" to="/Elevenmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -400,9 +401,9 @@ const Rudraksha = () => {
                      Immense spiritual significance , offers a multitude & Enhancing inner strength and confidence to promoting physical and emotional well-being, its importance cannot be overstated.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Twelvemukhi">
+                <Link className="btn btn-light px-3" to="/Twelvemukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -428,9 +429,9 @@ const Rudraksha = () => {
                      Thirteen natural lines or "mukhis" on its surface, associated with Lord Kaamdev (God of Desire), Lord Indra (King of Gods), and Goddess Mahalaxmi (Goddess of Wealth). 
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Thirteenmukhi">
+                <Link className="btn btn-light px-3" to="/Thirteenmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -450,9 +451,9 @@ const Rudraksha = () => {
                     14 Mukhi Rudraksha is said to bring success, confidence, courage, and mental clarity, while also providing protection from misfortune and evil influences.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Fourteenmukhi">
+                <Link className="btn btn-light px-3" to="/Fourteenmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -472,9 +473,9 @@ const Rudraksha = () => {
                   Including enhancing emotional healing, mental clarity, and intuition, promoting spiritual awareness and growth, and providing protection from negative energies.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Fifteenmukhi">
+                <Link className="btn btn-light px-3" to="/Fifteenmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -494,9 +495,9 @@ const Rudraksha = () => {
                    Type of bead with 16 natural lines on its surface and is believed to have various benefits for the wearer. It is associated with Lord Shiva, the destroyer of evil, and Lord Ram, the ideal king and warrior.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Sixteenmukhi">
+                <Link className="btn btn-light px-3" to="/Sixteenmukhi">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -517,9 +518,9 @@ const Rudraksha = () => {
                     Type of bead with 16 natural lines on its surface and is believed to have various benefits for the wearer. It is associated with Lord Shiva, the destroyer of evil, and Lord Ram, the ideal king and warrior.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Gaurishankar">
+                <Link className="btn btn-light px-3" to="/Gaurishankar">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -539,9 +540,9 @@ const Rudraksha = () => {
                    a rare and unique Rudraksha bead distinguished by a natural, trunk-like protrusion on its surface, resembling the trunk of Lord Ganesha, the Hindu deity of wisdom and the remover of obstacles
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Ganesh">
+                <Link className="btn btn-light px-3" to="/Ganesh">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -566,9 +567,9 @@ const Rudraksha = () => {
                      Thirteen natural lines or "mukhis" on its surface, associated with Lord Kaamdev (God of Desire), Lord Indra (King of Gods), and Goddess Mahalaxmi (Goddess of Wealth). 
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Trijuti">
+                <Link className="btn btn-light px-3" to="/Trijuti">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -588,9 +589,9 @@ const Rudraksha = () => {
                     14 Mukhi Rudraksha is said to bring success, confidence, courage, and mental clarity, while also providing protection from misfortune and evil influences.
                   </p>
                 </div>
-                <a className="btn btn-light px-3" href="/Garbh">
+                <Link className="btn btn-light px-3" to="/Garbh">
                   Read More <i className="bi bi-chevron-double-right ms-1"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 // src/components/Appointment.jsx
 import React, { useState } from "react";
+import Seo from "./Seo";
 
 const Appointment = () => {
   const [formData, setFormData] = useState({
@@ -37,6 +38,8 @@ const Appointment = () => {
   };
 
   return (
+    <>
+    <Seo title="Home Page" description="This is the appoiment page"/>
     <div
       className="container-fluid appointment mt-6 mb-6 py-5 wow fadeIn"
       style={{ backgroundColor: "#122717" }}
@@ -68,7 +71,6 @@ const Appointment = () => {
           }
         }
       `}</style>
-
       <div className="container pt-5">
         <div className="row gy-5 gx-0">
           {/* Left Info Section */}
@@ -228,6 +230,7 @@ const Appointment = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

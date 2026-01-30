@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Fivemukhi = () => {
   const [mainImage, setMainImage] = useState(
@@ -7,7 +8,7 @@ const Fivemukhi = () => {
 
   const thumbnails = [
     "img/n5mukhi.jpg",
-    "img/certified1.jpg",
+    "img/certified3.jpeg",
   ];
 
   const changeImage = (src) => setMainImage(src);
@@ -127,6 +128,19 @@ const Fivemukhi = () => {
           color: black;
           background: #1ebe5d;
         }
+           @media (max-width: 768px) {
+          .zoomIn {
+            margin-top: 2% !important;
+            margin-left: 75% !important;
+            float: none !important;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .zoomIn {
+            margin-top: 2% !important;
+            margin-left: 65% !important;
+          }
 
     `}
 
@@ -155,7 +169,7 @@ const Fivemukhi = () => {
 
         {/* Right: Product Details */}
         <div style={styles.detailsSection}>
-          <h2 style={styles.title}>Five MUKHI RUDRAKSHA</h2>
+          <h2 style={styles.title}>FIVE MUKHI RUDRAKSHA</h2>
           <div style={styles.price}>PRICE : 100 /- (Only)</div>
           <p style={styles.description}>
              Wearing the 5 Mukhi Rudraksha enhances focus and concentration during spiritual practices such as meditation, prayer, and mantra chanting.
@@ -166,31 +180,29 @@ const Fivemukhi = () => {
           <h6 style={{color:"#807E78"}}>(For more such Details Please Contact us)</h6>
           {/* Buttons */}
             <div className="btn-group">
-              <a href="tel:+919834432773" className="btn-primary">
+              <Link to="tel:+919834432773" className="btn-primary">
                 Call Now
-              </a>
-              <a
-                href="https://wa.me/919834432773?text=Hello! I am interested in Five Mukhi Rudraksha."
+              </Link>
+              <Link
+                to="https://wa.me/919834432773?text=Hello! I am interested in Five Mukhi Rudraksha."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline"
               >
                 WhatsApp Now
-              </a>
+              </Link>
             </div>
         </div>
       </div>
-    </div>
-<a
-                href="/Rudraksha"
+      <Link
+                to="/Rudraksha"
                 className="btn btn-primary py-3 px-4 animated zoomIn"
                 style={{marginTop:'-5%',marginLeft:'92%'}}
               >
                 Back
-              </a>
-             
-    
-    </>
+              </Link>
+    </div>
+  </>
   );
 };
 

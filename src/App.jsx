@@ -1,5 +1,7 @@
 import React from 'react';
-import {  Routes, Route } from 'react-router-dom';
+import {  Routes, Route, Link } from 'react-router-dom';
+
+import {HelmetProvider } from 'react-helmet-async';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -86,6 +88,7 @@ function App() {
   return (
    <>
       <Navbar />
+      <HelmetProvider>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About1" element={<About1/>} />
@@ -139,20 +142,24 @@ function App() {
            <Route path="/Premium7" element={<Premium7/>} />
             <Route path="/Premium8" element={<Premium8/>} />
              <Route path="/Premium9" element={<Premium9/>} />
-             <Route path="/Gallary" element={<Gallary/>} />
-             
-        
-        
-       
-        
-
-
-        
+             <Route path="/Gallary" element={<Gallary/>} /> 
       </Routes>
-      
-     
-     
+      </HelmetProvider>
       <Footer />
+      {/* WhatsApp Floating Button */}
+      <div
+        className="fixed-bottom p-3"
+        style={{ zIndex: 6, left: "initial", right: 0 }}
+      >
+        <Link
+          to="https://wa.me/9834432773?text=Hello, I am interested in purchasing original Rudraksha from Nepal Rudraksha Centre. Please share details."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/img/whatsapp-icon1.jpeg" width="60" alt="WhatsApp" />
+
+        </Link>
+      </div>
    </>
   );
 }

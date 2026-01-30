@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const exclusive = () => {
 const products = [
@@ -235,13 +236,13 @@ const products = [
           </div>
         </div>
       </div>
-       <a
-                href="/Rudraksha"
+       <Link
+                to="/Rudraksha"
                 className="btn btn-primary py-3 px-4 animated zoomIn"
                 style={{marginTop:'-5%',marginLeft:'92%'}}
               >
                 Back
-              </a>
+              </Link>
      <hr style={{ border: '2px solid #d6ae58ff', borderRadius: '6px', color:'#f0a70aff',marginTop:'-1%',marginBottom:'30px'}}></hr>
     
       </>

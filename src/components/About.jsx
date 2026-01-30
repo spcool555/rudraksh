@@ -1,7 +1,10 @@
 import React from "react";
+import Seo from "./Seo";
 
 const About = () => {
   return (
+    <>
+    <Seo title="Home Page" description="This is the about page"/>
     <div className="container-fluid pt-6 pb-6 about">
       <div className="container">
         <div className="row g-5 align-items-center">
@@ -55,6 +58,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

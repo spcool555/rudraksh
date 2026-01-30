@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Features = () => {
   return (
@@ -19,13 +20,13 @@ const Features = () => {
                     We provide 100% genuine Nepal Rudraksha beads with proper
                     origin verification.
                   </p>
-                  <a
+                  <Link
                     className="position-relative text-body text-uppercase small d-flex justify-content-between"
-                    href="#"
+                    to="#"
                   >
                     <b className="bg-white pe-3">Read More</b>
                     <i className="bi bi-arrow-right bg-white ps-3"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -42,13 +43,13 @@ const Features = () => {
                     Each Rudraksha comes with a trusted certificate of
                     authenticity and lab test reports.
                   </p>
-                  <a
+                  <Link
                     className="position-relative text-body text-uppercase small d-flex justify-content-between"
-                    href="#"
+                    to="#"
                   >
                     <b className="bg-white pe-3">Read More</b>
                     <i className="bi bi-arrow-right bg-white ps-3" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -65,13 +66,13 @@ const Features = () => {
                     Our Rudraksha malas are blessed and energised for maximum
                     spiritual & healing benefits.
                   </p>
-                  <a
+                  <Link
                     className="position-relative text-body text-uppercase small d-flex justify-content-between"
-                    href="#"
+                    to="#"
                   >
                     <b className="bg-white pe-3">Read More</b>
                     <i className="bi bi-arrow-right bg-white ps-3" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -88,13 +89,13 @@ const Features = () => {
         Take first achieving your goals free
         consultation now and get expert advice.
       </p>
-      <a
+      <Link
         className="position-relative text-body text-uppercase small d-flex justify-content-between"
-        href="#"
+        to="#"
       >
         <b className="bg-white pe-3">Read More</b>
         <i className="bi bi-arrow-right bg-white ps-3"></i>
-      </a>
+      </Link>
     </div>
   </div>
 </div>

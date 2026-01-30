@@ -1,6 +1,7 @@
 // src/components/Footer.jsx
 import React from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -25,10 +26,10 @@ const Footer = () => {
                 nepalrudrakshacentre@gmail.com
               </p>
               <div className="d-flex pt-3">
-                <a className="btn btn-square btn-light me-2" href="#"><FaTwitter /></a>
+                {/* <a className="btn btn-square btn-light me-2" href="#"><FaTwitter /></a>
                 <a className="btn btn-square btn-light me-2" href="#"><FaFacebookF /></a>
                 <a className="btn btn-square btn-light me-2" href="#"><FaYoutube /></a>
-                <a className="btn btn-square btn-light me-2" href="#"><FaLinkedinIn /></a>
+                <a className="btn btn-square btn-light me-2" href="#"><FaLinkedinIn /></a> */}
               </div>
             </div>
 
@@ -36,15 +37,15 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6">
               <h5 className="text-uppercase text-light mb-4">Quick Links</h5>
               <div className="d-flex flex-column gap-2">
-                <a className="btn btn-link text-light ps-0" href="/">Home</a>
-                <a className="btn btn-link text-light ps-0" href="/Primium">Premium Quality Rudraksha</a>
-                <a className="btn btn-link text-light ps-0" href="/Rudraksha">Rudraksha</a>
-                <a className="btn btn-link text-light ps-0" href="/Rudrakshamala">Rudraksha Mala</a>
-                <a className="btn btn-link text-light ps-0" href="/Siddhamala">Siddha Mala</a>
-                <a className="btn btn-link text-light ps-0" href="/Combinationmala">Combination Mala</a>
-                <a className="btn btn-link text-light ps-0" href="/Consultation">Rudraksha Consultation</a>
-                 <a className="btn btn-link text-light ps-0" href="/About1">About Us</a>
-                <a className="btn btn-link text-light ps-0" href="/Contact">Contact Us</a>
+                <Link className="btn btn-link text-light ps-0" to="/">Home</Link>
+                <Link className="btn btn-link text-light ps-0" to="/Primium">Premium Quality Rudraksha</Link>
+                <Link className="btn btn-link text-light ps-0" to="/Rudraksha">Rudraksha</Link>
+                <Link className="btn btn-link text-light ps-0" to="/Rudrakshamala">Rudraksha Mala</Link>
+                <Link className="btn btn-link text-light ps-0" to="/Siddhamala">Siddha Mala</Link>
+                <Link className="btn btn-link text-light ps-0" to="/Combinationmala">Combination Mala</Link>
+                <Link className="btn btn-link text-light ps-0" to="/Consultation">Rudraksha Consultation</Link>
+                 <Link className="btn btn-link text-light ps-0" to="/About1">About Us</Link>
+                <Link className="btn btn-link text-light ps-0" to="/Contact">Contact Us</Link>
               </div>
             </div>
 
@@ -52,12 +53,12 @@ const Footer = () => {
             <div className="col-lg-4 col-md-12">
               <h4 className="text-uppercase text-light mb-4" >Gallery</h4>
               <div className="row g-1">
-                <a href="/Gallary" className="col-4"><img className="img-fluid" src="/img/10-mukhi.webp" alt=""style={{height:'110px'}} /></a>
-                <a href="/Gallary" className="col-4"><img className="img-fluid" src="/img/Rudraksga.jpg" alt="" style={{height:'110px'}} /></a>
-                <a href="/Gallary" className="col-4"><img className="img-fluid" src="/img/combination.jpg" alt="" /></a>
-                <a href="/Gallary" className="col-4"><img className="img-fluid" src="/img/bracelet.webp" alt="" /></a>
-                <a href="/Gallary" className="col-4"><img className="img-fluid" src="/img/custom-mala.webp" alt="" /></a>
-                <a href="/Gallary" className="col-4"><img className="img-fluid" src="/img/ru.jpg" alt="" style={{height:'110px'}}/></a>
+                <Link to="/Gallary" className="col-4"><img className="img-fluid" src="/img/10-mukhi.webp" alt=""style={{height:'110px'}} /></Link>
+                <Link to="/Gallary" className="col-4"><img className="img-fluid" src="/img/Rudraksga.jpg" alt="" style={{height:'110px'}} /></Link>
+                <Link to="/Gallary" className="col-4"><img className="img-fluid" src="/img/combination.jpg" alt="" /></Link>
+                <Link to="/Gallary" className="col-4"><img className="img-fluid" src="/img/bracelet.webp" alt="" /></Link>
+                <Link to="/Gallary" className="col-4"><img className="img-fluid" src="/img/custom-mala.webp" alt="" /></Link>
+                <Link to="/Gallary" className="col-4"><img className="img-fluid" src="/img/ru.jpg" alt="" style={{height:'110px'}}/></Link>
               </div>
             </div>
 
@@ -71,7 +72,7 @@ const Footer = () => {
         <div className="container">
          
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0 text-light"> All Right Reserved by |
-              &copy; <a className="fw-semi-bold text-light" href="#">2026 Nepal Rudraksha Center</a>
+              &copy; <a className="fw-semi-bold text-light" href="#">Copyright 2026 Nepal Rudraksha Center</a>
             </div>
             
           </div>

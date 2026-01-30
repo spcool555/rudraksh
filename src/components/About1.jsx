@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from "./Seo";
 
 const About1 = () => {
   return (
@@ -38,6 +39,7 @@ const About1 = () => {
                       0 0 0 4px white;
         }
       `}</style>
+      <Seo title="Home Page" description="This is the about1 page"/>
       {/* About Start */}
       <div className="container-fluid pt-6 pb-6">
         <div className="container">
